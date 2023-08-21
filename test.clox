@@ -1,12 +1,4 @@
-fun makeClosure() {
-  var a = "data";
-
-  fun f() { print a; }
-  return f;
-}
-
-{
-  var closure = makeClosure();
-  // GC here.
-  closure();
+class Brunch {
+  bacon() {}
+  eggs() {}
 }
